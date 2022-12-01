@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity"
+
+    >
+
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/gridlayout"
+        >
+        <Button
+            android:layout_width="80dp"
+            android:id="@+id/button1"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:onClick="BUTTONCALL"
+
+            android:backgroundTint="@color/black"
+
+            /><Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/button2"
+        android:onClick="BUTTONCALL"
+
+        android:layout_marginRight="10dp"
+
+        android:backgroundTint="@color/black"
+
+        /><Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/button3"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:onClick="BUTTONCALL"
+
+        android:backgroundTint="@color/black"
+
+        /><Button
+        android:layout_width="80dp"
+        android:id="@+id/button4"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_height="80dp"
+
+        android:backgroundTint="@color/black"
+        android:onClick="BUTTONCALL"
+
+        /><Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:onClick="BUTTONCALL"
+        android:id="@+id/button5"
+
+        android:backgroundTint="@color/black"
+
+        /><Button
+        android:layout_width="80dp"
+        android:onClick="BUTTONCALL"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/button6"
+
+        android:backgroundTint="@color/black"
+
+        /><Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="BUTTONCALL"
+        android:id="@+id/button7"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        android:backgroundTint="@color/black"
+
+        /><Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/button8"
+        android:onClick="BUTTONCALL"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        android:backgroundTint="@color/black"
+
+        /><Button
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="BUTTONCALL"
+        android:id="@+id/button9"
+
+        android:backgroundTint="@color/black"
+
+        />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player1"
+        android:ems="10"
+        android:textStyle="bold"
+        android:text="player1 NAME :"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/player2"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+
+        android:text="player2 NAME :"
+        android:textAllCaps="true"
+        android:textSize="30dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/playgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="PLAY AGAIN"
+        android:padding="10dp"
+        android:layout_marginLeft="210dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        >
+
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text=":turn"
+        android:id="@+id/text2"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+
+        >
+
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="328dp"
+        android:layout_marginLeft="328dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="570dp"
+        android:ems="5"
+        android:gravity="center"
+        android:text="0"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="330dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="512dp"
+        android:ems="3"
+        android:gravity="center"
+        android:text="0"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:layout_width="158dp"
+        android:id="@+id/newgame"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingHorizontal="10dp"
+        android:paddingLeft="10dp"
+        android:text="NEW GAME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        >
+
+
+    </Button>
+
+
+</RelativeLayout>
